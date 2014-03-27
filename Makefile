@@ -5,7 +5,7 @@ default: build
 build:
 	echo "Dummy build" > dumber
 	echo "Build with the following version of dumb:" >> dumber
-	cat /usr/share/dummy >> dumber
+	cat /usr/share/dummy/dummy >> dumber
 	echo "My version:" >> dumber
 	cat VERSION >> dumber
 
